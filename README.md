@@ -54,7 +54,7 @@ Before you begin, ensure you have the following installed:
    - Add the following variables:
      ```env
      SECRET_KEY=your_secret_key_here
-     UPLOAD_FOLDER=static/uploads
+     DATABASE_URI=sqlite:///database.db
      ```
    - Replace `your_secret_key_here` with a secure secret key for Flask sessions.
 
